@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Script/UI/ARScene.uss?fileID=7433441132597879392&amp;guid=a644fb732c362cb40ba9542adff0a324&amp;type=3#ARScene" />
+    <ui:VisualElement name="Container" style="align-items: flex-start; height: auto; justify-content: flex-start; flex-grow: 1; padding-left: 5px;">
+        <ui:VisualElement name="Set_Info" style="flex-direction: column; align-items: flex-start;">
+            <ui:Button display-tooltip-when-elided="true" name="Back" class="Button_menu" style="background-image: none; -unity-background-scale-mode: stretch-to-fill; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; cursor: initial; transition-property: all; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s; flex-shrink: 0; flex-grow: 0; align-items: stretch; width: 50px; height: 50px;" />
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="Reset" class="Button_menu" />
+            <ui:Button text="Animation" display-tooltip-when-elided="true" name="Animate" class="Button_menu" />
+            <ui:Button text="?" display-tooltip-when-elided="true" name="Trivia" class="Button_menu" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

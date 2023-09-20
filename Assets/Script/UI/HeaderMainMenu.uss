@@ -1,0 +1,43 @@
+.Button-MainMenu {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: rgb(231, 60, 60);
+    color: rgb(255, 255, 255);
+    align-items: stretch;
+    width: 75px;
+    height: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-font-definition: url('project://database/Assets/Font/Electronic%20Highway%20Sign%20SDF.asset?fileID=11400000&guid=804d2f34710d42547a11675986701987&type=2#Electronic Highway Sign SDF');
+}
+
+.Button-MainMenu:hover {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-color: rgb(202, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 75px;
+    height: 50px;
+    -unity-font-definition: url('project://database/Assets/Font/Electronic%20Highway%20Sign%20SDF.asset?fileID=11400000&guid=804d2f34710d42547a11675986701987&type=2#Electronic Highway Sign SDF');
+}
+
+.Button-MainMenu:active {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-color: rgb(144, 32, 32);
+    color: rgb(183, 183, 183);
+    -unity-text-outline-color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 75px;
+    height: 50px;
+    -unity-font-definition: url('project://database/Assets/Font/Electronic%20Highway%20Sign%20SDF.asset?fileID=11400000&guid=804d2f34710d42547a11675986701987&type=2#Electronic Highway Sign SDF');
+}
