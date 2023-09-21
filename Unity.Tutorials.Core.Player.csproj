@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3C73B13D-C62A-2DB8-6BB3-2E0631F51CB2}</ProjectGuid>
+    <ProjectGuid>{00929BD2-BFE1-F795-3698-6F23A5C9721E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Tutorials.Core</AssemblyName>
@@ -633,7 +633,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{63DC1B39-9F07-C7AE-3D46-6A9B0F911A46}</Project>
+      <Project>{3AE83265-69FF-3351-3435-6E673725C0C0}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

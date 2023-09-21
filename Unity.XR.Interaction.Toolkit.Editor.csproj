@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C3D3FF1E-81E6-F277-20FC-A0F5F64B6119}</ProjectGuid>
+    <ProjectGuid>{F976527B-42A9-C47A-3F47-BD4CA41D55F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Editor</AssemblyName>
@@ -796,39 +796,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{C77DB7E2-908D-39E3-8135-76D56F365A3D}</Project>
+      <Project>{2B8F9481-512E-EB60-0D93-624F1D65A24A}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{28C418B9-E3C5-A704-2965-91D675A80AD4}</Project>
+      <Project>{23B1BF13-E1FE-ADE0-DAF3-9DF71A666CD9}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{2AF79E6C-57F1-D1B8-360E-FAA93873BC77}</Project>
+      <Project>{99C7EC45-320A-FE24-07EC-B770E468574E}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{24357D33-27E9-B5C2-3B1E-4F76883966C6}</Project>
+      <Project>{74EEC82B-4E01-8687-B27E-A9E38498807A}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{4A9B0D49-3709-7F3B-049C-D270ED252212}</Project>
+      <Project>{01DAB396-CC3F-40F3-4966-91591BC71B5E}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{46B91CE1-03BC-90F1-BC75-9E56CF1ADE44}</Project>
+      <Project>{92673E48-24BE-023B-874A-FB640EBE64DE}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{BC61BECF-BEAF-0590-C1AC-576A2F7E553D}</Project>
+      <Project>{C52FB2E2-A6E7-D17E-F238-5C55038BF0A8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{2089123A-C1E0-B845-8A7B-1A8B5F764405}</Project>
+      <Project>{2CE14AFC-27EC-68E9-9F74-002BA40F626B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B18C9020-E447-2432-9A75-8D3FC96FD18E}</Project>
+      <Project>{FF83A103-8DED-144A-5975-7C559F3CBF8D}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA0B885D-B581-CBB6-309C-9354C9FE802B}</ProjectGuid>
+    <ProjectGuid>{21E9E2B0-4079-3454-7F9C-80B2EA5B1FA8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.CoreUtils</AssemblyName>
@@ -681,15 +681,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{8A333C65-3DBF-2A23-6B54-1680CD67079B}</Project>
+      <Project>{9E12DD4D-0C6E-2306-980F-806B9A09BA1E}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{D92517DB-D64F-BDE5-B21C-57DC28C9D5CB}</Project>
+      <Project>{E30E9B3A-0239-5098-B943-DE9074C2B554}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{63DC1B39-9F07-C7AE-3D46-6A9B0F911A46}</Project>
+      <Project>{3AE83265-69FF-3351-3435-6E673725C0C0}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

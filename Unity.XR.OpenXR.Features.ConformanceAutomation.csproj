@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1B5D5D03-64FC-B8AD-CF93-05E541F0124B}</ProjectGuid>
+    <ProjectGuid>{ACEFBF27-FC21-BC1E-D8B6-9E5FB6BF3735}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.ConformanceAutomation</AssemblyName>
@@ -729,15 +729,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{BA7E2936-CF1D-2FE4-C4BD-EA93B04DD538}</Project>
+      <Project>{FB3FABE0-C218-C8A4-909F-0C06AFA4FE6F}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{46B91CE1-03BC-90F1-BC75-9E56CF1ADE44}</Project>
+      <Project>{92673E48-24BE-023B-874A-FB640EBE64DE}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{BC61BECF-BEAF-0590-C1AC-576A2F7E553D}</Project>
+      <Project>{C52FB2E2-A6E7-D17E-F238-5C55038BF0A8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

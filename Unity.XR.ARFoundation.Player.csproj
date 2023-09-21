@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DE835C94-FDB7-BBB4-F55C-34F43B31F548}</ProjectGuid>
+    <ProjectGuid>{9A7AE690-8530-2F04-D676-87C3515D7DF4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation</AssemblyName>
@@ -710,19 +710,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
-      <Project>{08F82327-210D-A70B-DA87-9B0E377BB082}</Project>
+      <Project>{DB39B822-A77A-6E7E-90E2-271709D16B4E}</Project>
       <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{7F1C2E82-C0AC-9E6C-93A3-3E521F9F6827}</Project>
+      <Project>{6C8615D3-C681-4CC3-EAA6-345790205A67}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{D92517DB-D64F-BDE5-B21C-57DC28C9D5CB}</Project>
+      <Project>{E30E9B3A-0239-5098-B943-DE9074C2B554}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{63DC1B39-9F07-C7AE-3D46-6A9B0F911A46}</Project>
+      <Project>{3AE83265-69FF-3351-3435-6E673725C0C0}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

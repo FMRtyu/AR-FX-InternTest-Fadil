@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{354C5068-F84A-B16E-0783-C51A4ECB68E4}</ProjectGuid>
+    <ProjectGuid>{428AEC77-781A-5963-2FDC-0F8AF21F15EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Toolchain.Win-x86_64-Linux-x86_64</AssemblyName>
@@ -749,27 +749,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.SysrootPackage.Editor.csproj">
-      <Project>{FACF2C70-58D9-E6BF-6776-BBF7CE26783F}</Project>
+      <Project>{F55E0781-9A21-BE93-B69E-F93FF64516C4}</Project>
       <Name>Unity.SysrootPackage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Sysroot.Linux_x86_64.csproj">
-      <Project>{3C49CB88-94AD-8D7C-FC0B-CC0C14D891E6}</Project>
+      <Project>{87F1FBA1-7E5B-0CDC-4189-F0DE3F53F5FB}</Project>
       <Name>Unity.Sysroot.Linux_x86_64</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{46B91CE1-03BC-90F1-BC75-9E56CF1ADE44}</Project>
+      <Project>{92673E48-24BE-023B-874A-FB640EBE64DE}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{BC61BECF-BEAF-0590-C1AC-576A2F7E553D}</Project>
+      <Project>{C52FB2E2-A6E7-D17E-F238-5C55038BF0A8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{2089123A-C1E0-B845-8A7B-1A8B5F764405}</Project>
+      <Project>{2CE14AFC-27EC-68E9-9F74-002BA40F626B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B18C9020-E447-2432-9A75-8D3FC96FD18E}</Project>
+      <Project>{FF83A103-8DED-144A-5975-7C559F3CBF8D}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{35C010A7-EC5E-BA0E-D1EA-841FA75A977D}</ProjectGuid>
+    <ProjectGuid>{D07E6CB9-642A-AB9B-5BA4-BD424F8B946A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -83,6 +83,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\Script\Controller\SoundController.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Script\Manager\ARMenuManager.cs" />
@@ -104,7 +105,6 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Script\Controller\SoundController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -710,99 +710,99 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{8A333C65-3DBF-2A23-6B54-1680CD67079B}</Project>
+      <Project>{9E12DD4D-0C6E-2306-980F-806B9A09BA1E}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{D92517DB-D64F-BDE5-B21C-57DC28C9D5CB}</Project>
+      <Project>{E30E9B3A-0239-5098-B943-DE9074C2B554}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{63DC1B39-9F07-C7AE-3D46-6A9B0F911A46}</Project>
+      <Project>{3AE83265-69FF-3351-3435-6E673725C0C0}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.InteractionSubsystems.Player.csproj">
-      <Project>{341F2085-76D4-484A-10D7-8D436462AEDF}</Project>
+      <Project>{81B873C1-B038-DA51-4C16-BFDF09C631A5}</Project>
       <Name>Unity.XR.InteractionSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{7F1C2E82-C0AC-9E6C-93A3-3E521F9F6827}</Project>
+      <Project>{6C8615D3-C681-4CC3-EAA6-345790205A67}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
-      <Project>{6514C774-E7E0-9A4F-513C-C40DD5962C50}</Project>
+      <Project>{C1F0A7DA-D3F0-E82F-1763-A1A23B2328AB}</Project>
       <Name>Unity.XR.ARCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
-      <Project>{08F82327-210D-A70B-DA87-9B0E377BB082}</Project>
+      <Project>{DB39B822-A77A-6E7E-90E2-271709D16B4E}</Project>
       <Name>Unity.XR.ARSubsystems.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
-      <Project>{3C73B13D-C62A-2DB8-6BB3-2E0631F51CB2}</Project>
+      <Project>{00929BD2-BFE1-F795-3698-6F23A5C9721E}</Project>
       <Name>Unity.Tutorials.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{88096936-86CF-FD80-6EDE-15951ACEAA59}</Project>
+      <Project>{BA2E7223-4EAE-EEBD-139E-CD7C31BC0F4D}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{8055328E-D6B5-87BE-AC1B-0FD54A6BDE0C}</Project>
+      <Project>{691F8507-4F11-47A4-ADA9-BBDCBCCDF888}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
-      <Project>{28060F76-663D-71A8-1126-9A81473BEBAE}</Project>
+      <Project>{275C92BE-6AE6-74A8-B12B-50082B554CAE}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Subsystem.Registration.Player.csproj">
-      <Project>{0020DA0B-1AB3-4BCC-9802-7136A4EE10B7}</Project>
+      <Project>{9DC820D1-62A9-CAD3-BE60-7949C03E3B42}</Project>
       <Name>Unity.Subsystem.Registration.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{E215C205-8A61-6E02-92F4-95EEBB02FAB6}</Project>
+      <Project>{75ABB38C-BFED-E05C-5809-B3EC0F303E24}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj">
-      <Project>{CCF45A0F-0BAB-5C5B-7BF9-8BBA728F4E52}</Project>
+      <Project>{F74E0ED2-3C4D-1DAF-BF06-17EDE77954A8}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{C7354069-7637-E932-1F07-51A65F3187B9}</Project>
+      <Project>{2D963785-B852-B7F1-0DB9-F2336201FFA7}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{4950B669-808F-A1BC-6CA7-C87EF2C660EF}</Project>
+      <Project>{BE7CA1FF-58B7-FFC6-9E58-4EABAB3E3262}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{1242742A-2FFD-C9E8-26EB-6F0971FAA063}</Project>
+      <Project>{1FF6C7DA-F7A6-D8F7-D7C0-14D3FCF0BE5D}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{E80CD4D7-DE10-5E45-FEF7-162EFAE17004}</Project>
+      <Project>{A15269CA-1FD0-4EDA-2051-D531336202FE}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{471623A8-BCD2-8961-5C1A-F82F6582C816}</Project>
+      <Project>{0F8008BB-CEEA-C231-CF57-F7A2A974E85B}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
-      <Project>{FA0B885D-B581-CBB6-309C-9354C9FE802B}</Project>
+      <Project>{21E9E2B0-4079-3454-7F9C-80B2EA5B1FA8}</Project>
       <Name>Unity.XR.CoreUtils.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{A5084925-0D1D-7E9D-4BAA-459AF3C10258}</Project>
+      <Project>{24D428E8-3EF9-CF43-C2A7-A1CA50146556}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
-      <Project>{35B45C3F-30B4-B7F5-D9B0-ABF7BDECB163}</Project>
+      <Project>{CD81C0C1-7BEF-B733-D2D4-546E07B8615A}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{BA83C41A-8968-2583-BD05-EDCF45A78355}</Project>
+      <Project>{9FBA5A63-F5FF-8DB7-C427-7A07189C52D5}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
-      <Project>{DE835C94-FDB7-BBB4-F55C-34F43B31F548}</Project>
+      <Project>{9A7AE690-8530-2F04-D676-87C3515D7DF4}</Project>
       <Name>Unity.XR.ARFoundation.Player</Name>
     </ProjectReference>
   </ItemGroup>

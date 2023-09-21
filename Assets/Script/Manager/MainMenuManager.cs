@@ -27,7 +27,9 @@ public class MainMenuManager : MonoBehaviour
         var root = GetComponent<UIDocument>().rootVisualElement;
 
         LeanTween.alphaCanvas(canvasGroupGameObject, to: 0, fadeTime).setOnComplete(() => {
+            AudioController.Play("Fly1");
             LeanTween.move(headerGameobject, headerPos.transform.position, 1).setOnComplete(() => {
+                AudioController.Play("Fly1");
                 LeanTween.move(buttonGroupGameobject, buttonPos.transform.position, 1).setOnComplete(HeliIn);
             });
         });
@@ -39,7 +41,7 @@ public class MainMenuManager : MonoBehaviour
     }
     public void OnClickedStartButton()
     {
-        AudioController.PlayMusic("ButtonClicked");
+        AudioController.Play("ButtonClicked");
         canvasGameobject.SetActive(true);
         HeliAnimation.SetBool("IsStart", true);
         LeanTween.alphaCanvas(canvasGroupGameObject, to: 1, fadeTime).setOnComplete(LoadScene);
